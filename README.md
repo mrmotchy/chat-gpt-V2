@@ -1,4 +1,4 @@
-![Logo](https://i.pinimg.com/originals/00/f8/6b/00f86b1463e599e15d0cc3d870505a2e.jpg)
+
 
 <div align="center">
   
@@ -11,22 +11,9 @@
   
   # Features
   * **Watch my YT video & host your [bot 24/7](https://dsc.gg/dst74)**
-- Setup 
-- Open 
-- Close
-- Add
-- Remove
-- Rename
-- Close
-- Reopen
-- Per Server Prefix 
-- Ping Command
 
-# 💎 Preview
-## This it what the bot looks like...
-![](https://github.com/mrmotchy/stuff/blob/main/Unben55555555555555annt.PNG?raw=true)
+Chat GPT Discord bot
 
-![](https://github.com/mrmotchy/stuff/blob/main/Unben6666666666annt.PNG?raw=true)
 
 # 🔩 Installation
 ## Create [TOKEN](https://discord.com/developers/)
@@ -38,38 +25,6 @@ $ under bot_token
 ```
 $ server prefixes could be -; +; !; ?;...
 ```
-
-# 💻 Code example
-This is a simple example of code using this package.
-
-```js
-            id: require('quick.db').fetch(`TicketAdminRole_${message.guild.id}`),
-            allow: ["SEND_MESSAGES", "VIEW_CHANNEL"]
-        }, {
-            id: message.guild.roles.everyone,
-            deny: ["VIEW_CHANNEL"]
-        }]).then(() => {
-            message.channel.send({
-                embed: {
-                    title: '✅ | Done',
-                    description: `${txt} has been added to this ticket`,
-                    color: 0x00D700
-                }
-            }).then(async function(msg) {
-                setTimeout(() => {
-                    msg.delete().catch(err => { return })
-                }, 1000 * 7);
-```
-&
-```js
-                const embed2 = new Discord.MessageEmbed()
-                .setTitle(`Premium Ticket Commands`)
-                .setThumbnail(message.guild.iconURL({ dynamic: true }))
-                .setDescription(`**__Here Are My Commands:__**\n\`setup,\` \`transcript,\` \`rename,\` \`remove,\` \`ping,\` \`open,\` \`close\``)
-                .setColor(`#0x2F3136`)
-```
-
-<br/>
 
 
 
